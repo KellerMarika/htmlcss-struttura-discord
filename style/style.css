@@ -69,11 +69,11 @@ main section{
 main section .container{
     display: flex;  
 }
-section .container>*{
+main section .container>*{
     padding:40px/* :::::::::::::::::::::::::: */
 }
 .section-img{
-    flex-grow: 2;
+    flex-grow: 3;
     background-color: rgb(101, 169, 209); /* ::::::::::::: */
 }
 .section-info{
@@ -102,5 +102,23 @@ main article .container{
 footer section{
     background-color: rgb(38, 37, 48);
     padding: 10px;
-
+}
+footer .container{
+    display: flex;
+}
+.footer-section_1 .container>*{
+    background-color: rgb(141, 219, 193);
+    padding: 40px;
+}
+.footer-section_1 .main-col{
+    background-color:  rgb(224, 146, 146);
+    flex-grow: 2;
+}
+.footer-section_2{
+    border-top: 1px solid white;
+} 
+.footer-section_2 .container{
+   justify-content: space-between;
+   background-color: rgb(141, 219, 193);
+   padding: 10px;
 }

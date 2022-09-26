@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;}
+
+/* class-utilities............... */
+.container{
+width: 920px;
+margin: auto;
+}
+
+/* colori::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+nav .container{
+    background-color: rgb(245, 219, 148);/* ......................... */
+}
+.container>*{
+    border:1px solid grey
+}/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+/* nav ........................... */
+nav{
+    background-color: rgb(172, 243, 243);
+    padding: 20px 0px;
+}
+ header nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+header .nav-link{
+    flex-grow: 1;
+}
+header .nav-logo,
+header .nav-login{
+    min-width: 150px;
+}
+header .nav-link ul{
+    text-align: center;
+}
+header .nav-logo>*,
+header .nav-link li{
+    display: inline-block;
+}
+header .nav-login{
+    text-align: right;
+}
+
+/* header article ................*/
+header article{
+    background-color: rgb(103, 103, 226);/* :::::::::::::::::::::::::::::: */
+    /* background-image: */
+    padding:40px 0px ;
+}
+    
+header article .container-small{
+   margin: auto;
+    width: 700px;
+    background-color: palevioletred; /* :::::::::::::::::::::::::::: */
+    padding: 40px;  /* :::::::::::::::::::: */
+}
+
+/* section ......................*/
+main section{
+    padding: 40px;  
+}
+main section .container{
+    display: flex;  
+}
+section .container>*{
+    padding:40px/* :::::::::::::::::::::::::: */
+}
+.section-img{
+    flex-grow: 2;
+    background-color: rgb(101, 169, 209); /* ::::::::::::: */
+}
+.section-info{
+    flex-grow: 1;
+    background-color: rgb(224, 146, 146); /* ::::::::: */
+}
+section.row-reverse{
+    background-color: bisque; /* :::::::::::::::: */
+}
+section.row-reverse .container{
+    flex-direction: row-reverse;
+}
+/* main article......................................... */
+
+main article{
+    background-color: bisque; /* :::::::::::::::: */
+    padding: 40px; 
+}
+
+main article .container{
+    background-color: rgb(28, 224, 159);
+    padding:100px
+}
+
+/* footer............................ */
+footer section{
+    background-color: rgb(38, 37, 48);
+    padding: 10px;
+
+}
